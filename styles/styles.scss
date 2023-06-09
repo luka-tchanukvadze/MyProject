@@ -661,6 +661,7 @@ section{
         margin-left: 1.5rem;
       }
     }
+
     .submit-btn{
       display: flex;
       justify-content: flex-start;
@@ -741,6 +742,31 @@ section{
       font-size: 6.3rem;
     }
   }
+}
+
+.send-btn{
+  background-color: transparent;
+  border-radius: 30px;
+  color: inherit;
+  font-weight: 600;
+  position: relative;
+  border: 1px solid var(--color-secondary);
+  display: flex;
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  transition: all .4s ease-in-out;
+  .btn-text{
+    padding: .7rem 2rem;
+    font-size: 1.1rem;
+  }
+  :hover{
+    cursor: pointer;
+    scale: 1.1;
+  }
+  
 }
 
 @import './media'

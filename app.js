@@ -46,3 +46,27 @@ function PageTransitions(){
 }
 
 PageTransitions()
+
+
+let btn = document.getElementById('btn')
+btn.addEventListener('click', function(e){
+  e.preventDefault()
+  let name = document.getElementById('name').value
+  let email = document.getElementById('email').value
+  let subject = document.getElementById('subject').value
+  let message = document.getElementById('message').value
+  let body = 'name: ' +name + '<br/> email: ' + email + '<br/> subject' + subject + '<br/> message' + message
+
+  Email.send({
+    Host : "smtp.elasticemail.com",
+    Username : "lukagamerbroh@gmail.com",
+    // Password : "zzssgmtslcwfqiwy",
+    Password : "E9D62D6D2C674D9434D49303F67D00D7B1E5",
+    To : 'lukagamerbroh@gmail.com',
+    From : email,
+    Subject : subject,
+    Body : body
+}).then(
+  _ => alert('Email sent successfully')
+);
+})
