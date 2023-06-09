@@ -67,6 +67,7 @@ btn.addEventListener('click', function(e){
     Subject : subject,
     Body : body
 }).then(
-  _ => alert('Email sent successfully')
+  
+  message => alert(message === 'OK' ? "Email Sent Successfully" : message)
 );
 })
