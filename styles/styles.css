@@ -330,13 +330,16 @@ section {
   width: 60%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 70%;
+  width: 92%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .python {
-  width: 60%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .react {
+  width: 80%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .javascript {
-  width: 80%;
+  width: 81%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .css {
+  width: 69%;
 }
 
 .stat-title {
