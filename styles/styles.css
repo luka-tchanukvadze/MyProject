@@ -333,13 +333,13 @@ section {
   width: 92%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 80%;
+  width: 94%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .javascript {
-  width: 81%;
+  width: 95%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 69%;
+  width: 95%;
 }
 
 .stat-title {
@@ -397,7 +397,7 @@ section {
 }
 .timeline .timeline-item h5 {
   padding: 1rem 0;
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 1.3rem;
   font-weight: 600;
 }
@@ -725,7 +725,35 @@ section {
   scale: 1.1;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 433px) {
+  section {
+    padding: 1rem 18rem;
+  }
+  .about-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 3.5rem;
+    padding-bottom: 5rem;
+  }
+  .about-container .right-about .about-item .abt-text {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .about-container .right-about .about-item .abt-text .large-text {
+    font-size: 2rem;
+  }
+  .about-container .right-about .about-item .abt-text .small-text {
+    padding-left: 3rem;
+  }
+  .abt-text {
+    padding: 0rem;
+  }
+  body {
+    background-color: red;
+  }
+}
+@media screen and (max-width: 860px) {
   .about-container {
     grid-template-columns: 1fr;
   }
@@ -786,7 +814,7 @@ section {
     margin-top: 1.5rem;
   }
 }
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1210px) {
   .about-container {
     grid-template-columns: 1fr;
   }

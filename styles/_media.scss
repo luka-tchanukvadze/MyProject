@@ -1,6 +1,41 @@
-@media screen and (max-width: 600px){
+@media screen and (max-width: 433px){
+  section{
+    padding: 1rem 18rem;
+  }
 
+  .about-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 3.5rem;
+    padding-bottom: 5rem;
+    .right-about
+      .about-item
+        .abt-text{
+          padding: 1.5rem;
+          display: flex;
+          flex-direction: column;
+          .large-text{
+            font-size: 2rem;
+          }
+          .small-text{
+            padding-left: 3rem;
+            }
+          }
+        }
+      
+      
+    
 
+  .abt-text{
+    padding: 0rem;
+  }
+
+  body{
+    background-color: red;
+  }
+}
+
+@media screen and (max-width: 860px){
 
   //about
   
@@ -84,7 +119,7 @@
   }
 }
 
-@media screen and (max-width: 1070px){
+@media screen and (max-width: 1210px){
   .about-container{
     grid-template-columns: 1fr;
     .right-about{
