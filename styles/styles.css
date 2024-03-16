@@ -746,12 +746,6 @@ section {
   .about-container .right-about .about-item .abt-text .small-text {
     padding-left: 3rem;
   }
-  .abt-text {
-    padding: 0rem;
-  }
-  body {
-    background-color: red;
-  }
 }
 @media screen and (max-width: 860px) {
   .about-container {
